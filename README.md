@@ -2,9 +2,13 @@
 
 This is a library to get loop counts of gifs.
 
+This does not convert gif to movie, so work in mobile safari too.
+
 As gif parsing library, use [https://github.com/buzzfeed/libgif-js](https://github.com/buzzfeed/libgif-js).
 
 # Example
+
+[DEMO](http://yuheinakasaka.github.io/loop-contable-gif-js/example.html)
 
 ```
   <img src="./Rotating_earth.gif">
@@ -24,6 +28,9 @@ As gif parsing library, use [https://github.com/buzzfeed/libgif-js](https://gith
   </script>
 ```
 
+# Browser Support
+
+majar browser and IE: 9+.
 
 # Constructor options
 - gif
